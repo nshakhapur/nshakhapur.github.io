@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      margin-bottom: 50px;
+    }
+    h1 {
+      font-family: 'San Serif';
+      margin-bottom: 20px;
+    }
+    .education-item img {
+      width: 50px;
+      height: auto;
+      margin-right: 20px;
+    }
+    .education-item {
+      margin-bottom: 30px;
+    }
+    .education-item h4 {
+      margin-top: 0;
+    }
+    .education-item .dates {
+      font-style: italic;
+      font-size: 14px;
+    }
+    .education-item .grades {
+      font-weight: bold;
+    }
+    .certificate-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+    .certificate-item img {
+      max-width: 400px;
+      margin-right: 20px;
+    }
+    .certificate-details {
+      flex: 1;
+    }
+    .skills, .experience {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Nidhi Shakhapur</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blogs.html">Experience & Insights</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <img src="me.jpeg" alt="Profile Image" class="img-fluid rounded">
+      </div>
+      <div class="col-md-8">
+        <h1>About Me</h1>
+        <p>As an enthusiastic final year undergraduate student pursuing a 4-year degree in Computer Science with a specialisation in Bioinformatics, my passion lies in the exciting fields of Biology and Space Science. I am passionate to explore the fascinating connection between Genomics and Space Technologies, while utilising AI (Artificial Intelligence) and ML (Machine Learning) to develop advanced technologies that provide accurate and reliable results, bringing a breakthrough. I actively seek out opportunities to apply my skills in AI/ML for Space Technology and Genetics by contributing in the ongoing or new projects in these fields, with the aim of making meaningful contributions to the ever-expanding frontiers of research.</p>
+      </div>
+    </div>
+
+    <section id="education" class="my-5">
+      <h2 class="text-center mb-4">Education</h2>
+      <div class="education-item row">
+        <div class="col-md-12">
+          <img src="vit.png" alt="VIT" class="img-fluid float-left ml-3">
+          <h4>Vellore Institute of Technology</h4>
+          <p>Bachelor of Technology - BTech, Computer Science</p>
+          <p class="dates">2021 - 2025</p>
+          <p>During my time at university, I actively engaged in a multitude of activities and societies that enriched my academic and personal development. Notably, I had the privilege of representing my institution at an international conference hosted by ISRO, where I had the opportunity to interact with esteemed scientists from ISRO, NASA, and other leading organizations. This experience broadened my horizons and deepened my understanding of the field.</p>
+          <p>I also collaborated on several research projects with professors and doctors, contributing to advancements in scientific knowledge. As a passionate advocate for the sciences, I delivered a speech at our Annual Science fest, Gravitas, on topics related to constellations, their importance, and their mythological interpretations, showcasing my passion for scientific communication. Moreover, I organized a workshop on AI/ML for stellar classifications, aiming to spread awareness about the integration of artificial intelligence in space sciences. These experiences and accomplishments have fueled my enthusiasm for scientific exploration and have equipped me with invaluable skills for the future.</p>
+          <p class="grades">CGPA: 8.63 (86.3%)</p>
+        </div>
+      </div>
+      <div class="education-item row">
+        <div class="col-md-12">
+          <img src="dcfl.png" alt="Deeksha Logo" class="school-logo float-left mr-3">
+          <h4>Deeksha Centre for Learning</h4>
+          <p>Pre-University (1st and 2nd year), Science</p>
+          <p class="dates">May 2019 - May 2021</p>
+          <p>My academic journey in this college was for 2 years, where I got interact with lecturers who were devoted to their subject. I got to learn many interesting things beyond my regular studies. I also visited ICTS (International Centre for Theoretical Sciences, Bangalore) to attend a lecture by a well-distinguished astronomer from Cambridge University. I actively contributed to the academic community as a member of the judging committee for the Avionics and Aerospace Building Event. In this role, I had the privilege of evaluating and judging aircraft models, which provided me with a practical understanding of aerospace engineering and avionics.</p>
+          <p class="grades">Grade: Distinction (94.5%)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="my-5">
+      <h2 class="text-center mb-4">Certificates and Courses</h2>
+      <div class="certificate-item">
+        <img src="google1.png" alt="Google Certificate">
+        <div class="certificate-details">
+          <h4>Google Cloud Career Readiness - Cloud Digital Leader track</h4>
+          <p>Issued Oct 2023</p>
+          <p>Credential ID NYbb15nN</p>
+          <p class="skills">Skills: Google Cloud Platform (GCP)</p>
+        </div>
+      </div>
+
+      <div class="certificate-item">
+        <img src="Astrobio.png" alt="Google Certificate">
+        <div class="certificate-details">
+          <h4>Astrobiology and the Search for Extraterrestrial
+            Life</h4>
+          <h5>University of Edinburgh</h5>
+          <p>Issued Jan 2022</p>
+          <p>Credential ID TFRSQFJWYHMM</p>
+          <p class="skills">Skills: Astrobiology, Genetics, Astronomy</p>
+        </div>
+      </div>
+
+
+      <div class="certificate-item">
+        <img src="ML.png" alt="Udemy Certificate">
+        <div class="certificate-details">
+          <h4>Machine Learning A-Z™: AI, Python & R</h4>
+          <p>Credential ID UC-b1233cb8-376e-4e5b-b24c-bb1a728b306b</p>
+          <p class="skills">Skills: Deep Learning · Python (Programming Language) · Machine Learning</p>
+        </div>
+      </div>
+      <div class="certificate-item">
+        <img src="AI.png" alt="Udemy Certificate">
+        <div class="certificate-details">
+          <h4>Artificial Intelligence Master Course</h4>
+          <p>Credential ID UC-c409201-2d5d-4b8-bdc6-0c6b5ce8c326</p>
+          <p class="skills">Skills: Natural Language Processing (NLP) · TensorFlow · Artificial Intelligence (AI)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skill-section">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0"><i class="bi bi-cpu"></i> Artificial Intelligence and Machine Learning</h4>
+            </div>
+            <div class="card-body">
+              <h5>Proficient Programming knowledge in:</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Artificial Neural Networks (ANN)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Natural Language Processing (Models worked on: BERT Model and GPT2 Model)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Convolutional Neural Networks (CNN)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Recurrent Neural Network (RNN)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Boltzmann Machine</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Restricted Boltzmann Machine (RBM)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Self-Organising Maps (SOMs)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Autoencoders</li>
+              </ul>
+              <h5>Additional Programming knowledge in:</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Machine Learning Algorithms such as Logistic Models, Decision Trees, Random Forest Models, SVM Models, SVD Models, KNN Models, etc.</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Feature selection and Dimensionality reduction techniques such as Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), and Kernel PCA</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Variational Autoencoders for image processing</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0"><i class="bi bi-graph-up"></i> Data Science and Data Mining</h4>
+            </div>
+            <div class="card-body">
+              <h5>Data Manipulation and Analysis:</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> NumPy</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Pandas</li>
+              </ul>
+              <h5>Data Visualization:</h5>
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Matplotlib</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Seaborn</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Plotly</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Scikit-learn</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Keras</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> TensorFlow and PyTorch</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0"><i class="bi bi-bar-chart-line"></i> Machine Learning Models for Data Visualizations in Biological Models</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> PHATE: Dimensionality reduction technique for single-cell RNA sequencing data that captures the progression and branching of cellular trajectories</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> SCPREP: Python library for the preprocessing of single-cell RNA-seq data, including quality control, normalization, and feature selection (PCA Technique)</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> SCANPY: Scalable toolkit for single-cell gene expression analysis that provides tools for preprocessing, clustering, visualization, and exploration of single-cell RNA sequencing data</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> MELD: Method for integrating single-cell RNA-seq datasets from different sources or conditions, enabling comparative analysis and cell type mapping</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> MAGIC: Technique for imputing missing values in single-cell RNA-seq data by leveraging the graph structure of the data</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> TrajectoryNet</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0"><i class="bi bi-microsoft"></i> Microsoft Packages</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Microsoft PowerBI for data visualizations</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Microsoft Excel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white">
+              <h4 class="mb-0"><i class="bi bi-gear"></i> Additional Skills</h4>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success"></i> Multi-tasking</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> Python</li>
+                <li><i class="bi bi-check-circle-fill text-success"></i> MATLAB</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    
+    
+  
+    
+    <section id="awards" class="awards-section my-5">
+      <h2 class="text-center mb-4">Awards and Achievements</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-award-fill text-primary" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">SMOPS 2023, ISRO and IAA International Conference</h5>
+                  <p class="card-text">Presented AI-based False Exoplanet Prediction research, earning acclaim from ISRO and NASA scientists.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-trophy-fill text-success" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">IIT Madras Biogen Challenge, 2021</h5>
+                  <p class="card-text">Secured 2nd place for hypothesis on vaccine development using Virophage and CRISPR-Cas9 for viral infections.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-lightbulb-fill text-warning" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">Bhoomi-Alpha Bio Cell – VIT, 2022</h5>
+                  <p class="card-text">1st Place for Innovative Syringe Disposal System using UV and IR radiations.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-globe2 text-info" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">Ecotopia - Biotech Research Society, 2022</h5>
+                  <p class="card-text">1st Place for Clean Energy using Solar and Radiation Technology.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-bar-chart-fill text-danger" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">Presentation at National Conference REDRESS-2023</h5>
+                  <p class="card-text">Presented a paper at the REDRESS-2023 national conference.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <div class="d-flex align-items-center">
+                <div class="icon-container">
+                  <i class="bi bi-envelope-fill text-secondary" style="font-size: 2rem;"></i>
+                </div>
+                <div class="ml-3">
+                  <h5 class="card-title">Special Acheiver Award</h5>
+                  <p class="card-text">Identified as a “Special Achiever” during the year 2023-24 for exemplary performance at various International events representing the institute.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    
+    </section>
+  </div>
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        <small class="d-block mb-3 text-body-secondary">&copy; 2024</p>
+          <a href="#">Back to top</a></small>
+      </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
