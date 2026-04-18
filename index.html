@@ -745,7 +745,7 @@
 
     /* Theme */
     var themeToggle=document.getElementById('themeToggle');
-    if(localStorage.getItem('theme')==='light') document.documentElement.classList.add('theme-light');
+    if(localStorage.getItem('theme')!=='dark') document.documentElement.classList.add('theme-light');
     if(themeToggle) themeToggle.addEventListener('click',function(){
       document.documentElement.classList.toggle('theme-light');
       localStorage.setItem('theme',document.documentElement.classList.contains('theme-light')?'light':'dark');
